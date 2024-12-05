@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class RailroadCrossingModel {
+public class Model {
     private enum State {WHITE, RED}
     private State state = State.WHITE;
     private boolean redToggle = false;  // Для мигания красного света
@@ -14,7 +14,7 @@ public class RailroadCrossingModel {
 
     private Timer timer;
 
-    public RailroadCrossingModel() {
+    public Model() {
         timer = new Timer(true);
         timer.schedule(new TimerTask() {
             @Override

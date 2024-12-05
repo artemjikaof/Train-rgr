@@ -2,13 +2,13 @@ package controller;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import model.RailroadCrossingModel;
+import model.Model;
 import view.Frame;
-public class RailroadCrossingController {
-    private RailroadCrossingModel model;
+public class Controller {
+    private Model model;
     private Frame view;
 
-    public RailroadCrossingController(RailroadCrossingModel model, Frame view) {
+    public Controller(Model model, Frame view) {
         this.model = model;
         this.view = view;
 

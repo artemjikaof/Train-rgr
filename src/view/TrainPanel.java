@@ -2,12 +2,12 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
-import model.RailroadCrossingModel;
+import model.Model;
 import java.util.Observable;
 import java.util.Observer;
 
 public class TrainPanel extends JPanel implements  Observer {
-    private RailroadCrossingModel model;
+    private Model model;
 
     public TrainPanel() {
         this.model = model;
